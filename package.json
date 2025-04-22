@@ -2,8 +2,10 @@
   "name": "docbot_js",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "crawl": "node crawler/index.js --url https://en.wikipedia.org/wiki/Nikola_Tesla"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +16,9 @@
     "cheerio": "^1.0.0",
     "dotenv": "^16.5.0",
     "jsdom": "^26.1.0",
-    "openai": "^4.95.1"
+    "minimist": "^1.2.8",
+    "openai": "^4.95.1",
+    "p-limit": "^6.2.0",
+    "slugify": "^1.6.6"
   }
 }
