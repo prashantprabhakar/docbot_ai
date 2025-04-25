@@ -1,6 +1,6 @@
 # 🧠 Wikipedia Q&A CLI Chatbot (with Ollama + Streaming)
 
-A lightweight CLI chatbot that answers questions based on the content of any Wikipedia page using **Ollama** and **local LLMs** like Mistral or LLaMA.
+A lightweight CLI chatbot that answers questions based on the content of any Wikipedia page using **Ollama** and **local LLMs** like Mistral or LLaMA. We can provide a URL and bot can answer questions from content based on the URL. It passes the website content as context to LLM
 
 ---
 
